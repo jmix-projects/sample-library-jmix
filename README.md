@@ -9,6 +9,7 @@ The Library showcase contains:
 -	The data model, which includes 8 related entities
 -	Custom screens
 -	Simple business logic implemented on a middleware tier
+-   Reporting module with sample [reports](https://docs.jmix.io/jmix/1.0/reports/sample-reports.html)
 
 Based on Jmix framework v.1.0.0
 

@@ -43,6 +43,8 @@
                 <action id="create" type="create"/>
                 <action id="edit" type="edit"/>
                 <action id="remove" type="remove"/>
+                <action id="listPrintForm" type="listPrintForm"/>
+                <action id="excelExport" type="excelExport"/>
             </actions>
             <columns>
                 <column id="town"/>
@@ -57,6 +59,8 @@
                 <button id="createBtn" action="bookPublicationsTable.create"/>
                 <button id="editBtn" action="bookPublicationsTable.edit"/>
                 <button id="removeBtn" action="bookPublicationsTable.remove"/>
+                <button id="listPrintFormBtn" action="bookPublicationsTable.listPrintForm"/>
+                <button id="excelExportBtn" action="bookPublicationsTable.excelExport" />
             </buttonsPanel>
         </groupTable>
         <hbox id="lookupActions" spacing="true" visible="false">
