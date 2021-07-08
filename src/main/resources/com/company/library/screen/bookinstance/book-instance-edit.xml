@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://jmix.io/schema/ui/window"
+        caption="msg://bookInstanceEdit.caption"
+        focusComponent="form">
+    <data>
+        <instance id="bookInstanceDc"
+                  class="com.company.library.entity.BookInstance"
+                  fetchPlan="bookInstance-edit">
+            <loader/>
+        </instance>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+        <screenSettings id="settingsFacet" auto="true"/>
+    </facets>
+    <actions>
+        <action id="windowCommitAndClose" caption="msg:///actions.Ok"
+                icon="EDITOR_OK"
+                primary="true"
+                shortcut="${COMMIT_SHORTCUT}"/>
+        <action id="windowClose"
+                caption="msg:///actions.Close"
+                icon="EDITOR_CANCEL"/>
+    </actions>
+    <dialogMode height="auto"
+                width="auto"/>
+    <layout spacing="true" expand="editActions">
+        <form id="form" dataContainer="bookInstanceDc">
+            <column width="350px">
+                <entityPicker id="libraryDepartmentField" property="libraryDepartment" editable="false">
+                    <actions>
+                        <action id="lookup" type="entity_lookup"/>
+                        <action id="clear" type="entity_clear"/>
+                    </actions>
+                </entityPicker>
+                <entityPicker id="bookPublicationField" property="bookPublication" editable="false">
+                    <actions>
+                        <action id="lookup" type="entity_lookup"/>
+                        <action id="clear" type="entity_clear"/>
+                    </actions>
+                </entityPicker>
+                <textField id="inventoryNumberField" property="inventoryNumber" editable="false"/>
+                <checkBox id="isReferenceField" property="isReference"/>
+            </column>
+        </form>
+        <hbox id="editActions" spacing="true">
+            <button id="commitAndCloseBtn" action="windowCommitAndClose"/>
+            <button id="closeBtn" action="windowClose"/>
+        </hbox>
+    </layout>
+</window>

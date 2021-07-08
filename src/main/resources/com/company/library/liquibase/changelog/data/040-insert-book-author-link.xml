@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="sample-library-jmix">
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="postgresql, mssql, hsqldb">
+            <column name="BOOK_ID" value="c073c4a2-c6e3-4428-aa19-f63ab0317b6d"/>
+            <column name="AUTHOR_ID" value="f5ee2d84-6bf9-4966-9bfd-d38453aee420"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="oracle, mysql, mariadb">
+            <column name="BOOK_ID" value="c073c4a2c6e34428aa19f63ab0317b6d"/>
+            <column name="AUTHOR_ID" value="f5ee2d846bf949669bfdd38453aee420"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="postgresql, mssql, hsqldb">
+            <column name="BOOK_ID" value="ffaacded-959d-40d8-a814-87e7dc797f73"/>
+            <column name="AUTHOR_ID" value="6a62273e-3c6f-47b3-a6c7-d70e7b255420"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="oracle, mysql, mariadb">
+            <column name="BOOK_ID" value="ffaacded959d40d8a81487e7dc797f73"/>
+            <column name="AUTHOR_ID" value="6a62273e3c6f47b3a6c7d70e7b255420"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="postgresql, mssql, hsqldb">
+            <column name="BOOK_ID" value="9b0e368a-b76a-40e6-b52f-3d3586b1443f"/>
+            <column name="AUTHOR_ID" value="b41c1385-a38e-4708-b776-a524b83a6555"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="oracle, mysql, mariadb">
+            <column name="BOOK_ID" value="9b0e368ab76a40e6b52f3d3586b1443f"/>
+            <column name="AUTHOR_ID" value="b41c1385a38e4708b776a524b83a6555"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="postgresql, mssql, hsqldb">
+            <column name="BOOK_ID" value="06b4ae95-2bc2-4d4e-ae37-14adcdca4954"/>
+            <column name="AUTHOR_ID" value="17803e72-2011-42e6-8aa9-cd0c82171b58"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="oracle, mysql, mariadb">
+            <column name="BOOK_ID" value="06b4ae952bc24d4eae3714adcdca4954"/>
+            <column name="AUTHOR_ID" value="17803e72201142e68aa9cd0c82171b58"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="postgresql, mssql, hsqldb">
+            <column name="BOOK_ID" value="1904bc24-b554-4b2f-bdd4-eb130057e624"/>
+            <column name="AUTHOR_ID" value="f20c7fa7-c871-4d45-95c5-0b83e5ab3031"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="oracle, mysql, mariadb">
+            <column name="BOOK_ID" value="1904bc24b5544b2fbdd4eb130057e624"/>
+            <column name="AUTHOR_ID" value="f20c7fa7c8714d4595c50b83e5ab3031"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="postgresql, mssql, hsqldb">
+            <column name="BOOK_ID" value="aad9576f-d9ee-4afd-bc3b-ee9486bc6d83"/>
+            <column name="AUTHOR_ID" value="4b3a21b0-d6b7-4161-b0b6-55f118fbaac5"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="oracle, mysql, mariadb">
+            <column name="BOOK_ID" value="aad9576fd9ee4afdbc3bee9486bc6d83"/>
+            <column name="AUTHOR_ID" value="4b3a21b0d6b74161b0b655f118fbaac5"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="postgresql, mssql, hsqldb">
+            <column name="BOOK_ID" value="317af461-cfc0-49f5-9ffa-767715c7e3f8"/>
+            <column name="AUTHOR_ID" value="8ead6894-76ad-4aa8-910b-d63f6e59bf00"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="oracle, mysql, mariadb">
+            <column name="BOOK_ID" value="317af461cfc049f59ffa767715c7e3f8"/>
+            <column name="AUTHOR_ID" value="8ead689476ad4aa8910bd63f6e59bf00"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="postgresql, mssql, hsqldb">
+            <column name="BOOK_ID" value="4a71f953-8c9b-4d18-94f7-8b6ddb32289c"/>
+            <column name="AUTHOR_ID" value="e81418f2-7645-46b9-8e46-8195d2f865a1"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="oracle, mysql, mariadb">
+            <column name="BOOK_ID" value="4a71f9538c9b4d1894f78b6ddb32289c"/>
+            <column name="AUTHOR_ID" value="e81418f2764546b98e468195d2f865a1"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="postgresql, mssql, hsqldb">
+            <column name="BOOK_ID" value="ff3b0136-768c-4db8-8368-aaa85ff65da7"/>
+            <column name="AUTHOR_ID" value="f5ee2d84-6bf9-4966-9bfd-d38453aee420"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="oracle, mysql, mariadb">
+            <column name="BOOK_ID" value="ff3b0136768c4db88368aaa85ff65da7"/>
+            <column name="AUTHOR_ID" value="f5ee2d846bf949669bfdd38453aee420"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="postgresql, mssql, hsqldb">
+            <column name="BOOK_ID" value="c2d7a99b-c698-4f17-adc8-1514c6e724e6"/>
+            <column name="AUTHOR_ID" value="ec197dba-2867-403d-9f00-d7ea54c408f4"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_AUTHOR_LINK" dbms="oracle, mysql, mariadb">
+            <column name="BOOK_ID" value="c2d7a99bc6984f17adc81514c6e724e6"/>
+            <column name="AUTHOR_ID" value="ec197dba2867403d9f00d7ea54c408f4"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="sample-library-jmix">
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="3a86cbc2-9cad-43b1-8493-10f4def86746"/>
+
+            <column name="NAME" value="Children's Department"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="3a86cbc29cad43b1849310f4def86746"/>
+
+            <column name="NAME" value="Children's Department"/>
+            <column name="VERSION" value="1"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+
+            <column name="NAME" value="Fiction Department"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+
+            <column name="NAME" value="Fiction Department"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="16408475-822a-4435-9b52-aa652885d4f0"/>
+
+            <column name="NAME" value="Humanities Department"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="16408475822a44359b52aa652885d4f0"/>
+
+            <column name="NAME" value="Humanities Department"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="d3d79593-a2da-4bb9-b642-2388b171a903"/>
+
+            <column name="NAME" value="Teen Department and Student Express"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="d3d79593a2da4bb9b6422388b171a903"/>
+
+            <column name="NAME" value="Teen Department and Student Express"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="353ee9af-4f95-48d5-8b98-d4efd330cbf0"/>
+
+            <column name="NAME" value="Special Collections"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="353ee9af4f9548d58b98d4efd330cbf0"/>
+
+            <column name="NAME" value="Special Collections"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="1d72cb25-0765-462a-ab24-c9038ce2a291"/>
+
+            <column name="NAME" value="Social Science and History Department"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="1d72cb250765462aab24c9038ce2a291"/>
+
+            <column name="NAME" value="Social Science and History Department"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="d5c15cc0-c42b-4954-8071-1f754b77fd70"/>
+
+            <column name="NAME" value="Fine Arts and Music Department"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="d5c15cc0c42b495480711f754b77fd70"/>
+
+            <column name="NAME" value="Fine Arts and Music Department"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="25310f10-2a6a-4585-9db8-b8e8c38ae62c"/>
+
+            <column name="NAME" value="Periodicals Department"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="25310f102a6a45859db8b8e8c38ae62c"/>
+
+            <column name="NAME" value="Periodicals Department"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="fc3e7561-4ffe-4a33-971a-c88724e4fa9a"/>
+
+            <column name="NAME" value="Government Documents"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="fc3e75614ffe4a33971ac88724e4fa9a"/>
+
+            <column name="NAME" value="Government Documents"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="f9741e52-1cbf-4b0c-bb01-b2282524f5dd"/>
+
+            <column name="NAME" value="Business, Science, and Technology Department"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_LIBRARY_DEPARTMENT" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="f9741e521cbf4b0cbb01b2282524f5dd"/>
+
+            <column name="NAME" value="Business, Science, and Technology Department"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+
+    </changeSet>
+</databaseChangeLog>

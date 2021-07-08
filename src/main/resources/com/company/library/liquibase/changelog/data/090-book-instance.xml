@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="sample-library-jmix">
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="f8b3b6ac-9de3-40f0-9111-5f6a410c7a00"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="66"/>
+            <column name="BOOK_PUBLICATION_ID" value="7d8a23ad-85ee-4987-b771-8d4d14e3ad35"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="f8b3b6ac9de340f091115f6a410c7a00"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="66"/>
+            <column name="BOOK_PUBLICATION_ID" value="7d8a23ad85ee4987b7718d4d14e3ad35"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="b3deec29-92aa-440e-8029-d54f59f76430"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="67"/>
+            <column name="BOOK_PUBLICATION_ID" value="7d8a23ad-85ee-4987-b771-8d4d14e3ad35"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="b3deec2992aa440e8029d54f59f76430"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="67"/>
+            <column name="BOOK_PUBLICATION_ID" value="7d8a23ad85ee4987b7718d4d14e3ad35"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="77bf4d77-0d63-44e6-a52b-3d0c1a1e3d22"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="68"/>
+            <column name="BOOK_PUBLICATION_ID" value="7d8a23ad-85ee-4987-b771-8d4d14e3ad35"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="77bf4d770d6344e6a52b3d0c1a1e3d22"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="68"/>
+            <column name="BOOK_PUBLICATION_ID" value="7d8a23ad85ee4987b7718d4d14e3ad35"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="90475c03-30a2-462b-ae2d-27e91dd66a7a"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="69"/>
+            <column name="BOOK_PUBLICATION_ID" value="78419d89-9e4b-49a3-94aa-48fe585fb406"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="90475c0330a2462bae2d27e91dd66a7a"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="69"/>
+            <column name="BOOK_PUBLICATION_ID" value="78419d899e4b49a394aa48fe585fb406"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="9f750108-7c16-4d83-bce9-b982f83409b5"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="70"/>
+            <column name="BOOK_PUBLICATION_ID" value="78419d89-9e4b-49a3-94aa-48fe585fb406"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="9f7501087c164d83bce9b982f83409b5"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="70"/>
+            <column name="BOOK_PUBLICATION_ID" value="78419d899e4b49a394aa48fe585fb406"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="f39b6412-4ecd-45cc-8a6b-d9ea3b5e3d8e"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="71"/>
+            <column name="BOOK_PUBLICATION_ID" value="0dd24375-7be4-4021-bc78-575194712dd8"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="d3d79593-a2da-4bb9-b642-2388b171a903"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="f39b64124ecd45cc8a6bd9ea3b5e3d8e"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="71"/>
+            <column name="BOOK_PUBLICATION_ID" value="0dd243757be44021bc78575194712dd8"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="d3d79593a2da4bb9b6422388b171a903"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="72d6fe38-d04f-45f5-ae25-20c7735b649a"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="72"/>
+            <column name="BOOK_PUBLICATION_ID" value="0dd24375-7be4-4021-bc78-575194712dd8"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="d3d79593-a2da-4bb9-b642-2388b171a903"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="72d6fe38d04f45f5ae2520c7735b649a"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="72"/>
+            <column name="BOOK_PUBLICATION_ID" value="0dd243757be44021bc78575194712dd8"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="d3d79593a2da4bb9b6422388b171a903"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="194042e4-b9a7-466f-b030-b4d828c70404"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="73"/>
+            <column name="BOOK_PUBLICATION_ID" value="0dd24375-7be4-4021-bc78-575194712dd8"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="d3d79593-a2da-4bb9-b642-2388b171a903"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="194042e4b9a7466fb030b4d828c70404"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="73"/>
+            <column name="BOOK_PUBLICATION_ID" value="0dd243757be44021bc78575194712dd8"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="d3d79593a2da4bb9b6422388b171a903"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="5f3282e0-2c7d-4cd7-9dde-9c4a449f8e89"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="74"/>
+            <column name="BOOK_PUBLICATION_ID" value="532682f8-dcf1-4f3a-88dc-743edfbe86f4"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="5f3282e02c7d4cd79dde9c4a449f8e89"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="74"/>
+            <column name="BOOK_PUBLICATION_ID" value="532682f8dcf14f3a88dc743edfbe86f4"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="2c3a4b42-c14f-4913-89ef-a69355091d05"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="75"/>
+            <column name="BOOK_PUBLICATION_ID" value="532682f8-dcf1-4f3a-88dc-743edfbe86f4"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="2c3a4b42c14f491389efa69355091d05"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="75"/>
+            <column name="BOOK_PUBLICATION_ID" value="532682f8dcf14f3a88dc743edfbe86f4"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="d8f3380f-e59a-4f52-b1f4-672fb4bfe9fb"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="76"/>
+            <column name="BOOK_PUBLICATION_ID" value="532682f8-dcf1-4f3a-88dc-743edfbe86f4"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="d8f3380fe59a4f52b1f4672fb4bfe9fb"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="76"/>
+            <column name="BOOK_PUBLICATION_ID" value="532682f8dcf14f3a88dc743edfbe86f4"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="7df0dd60-4902-4e55-8f4b-990050235fd1"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="77"/>
+            <column name="BOOK_PUBLICATION_ID" value="532682f8-dcf1-4f3a-88dc-743edfbe86f4"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="7df0dd6049024e558f4b990050235fd1"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="77"/>
+            <column name="BOOK_PUBLICATION_ID" value="532682f8dcf14f3a88dc743edfbe86f4"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="a71ee63d-18fd-4ca0-99fd-922af831ab82"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="78"/>
+            <column name="BOOK_PUBLICATION_ID" value="a1843bd5-91a3-4be6-9abc-0c2880d8b6c0"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="a71ee63d18fd4ca099fd922af831ab82"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="78"/>
+            <column name="BOOK_PUBLICATION_ID" value="a1843bd591a34be69abc0c2880d8b6c0"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="66b9b8aa-9241-4f34-87b2-1d98b6421a98"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="79"/>
+            <column name="BOOK_PUBLICATION_ID" value="a1843bd5-91a3-4be6-9abc-0c2880d8b6c0"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="66b9b8aa92414f3487b21d98b6421a98"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="79"/>
+            <column name="BOOK_PUBLICATION_ID" value="a1843bd591a34be69abc0c2880d8b6c0"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="b40b74c3-6b59-4909-b329-b8d51940e6d9"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="80"/>
+            <column name="BOOK_PUBLICATION_ID" value="a1843bd5-91a3-4be6-9abc-0c2880d8b6c0"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="b40b74c36b594909b329b8d51940e6d9"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="80"/>
+            <column name="BOOK_PUBLICATION_ID" value="a1843bd591a34be69abc0c2880d8b6c0"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="49ac40e7-5c13-4264-9d61-96e1e4790867"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="81"/>
+            <column name="BOOK_PUBLICATION_ID" value="a1843bd5-91a3-4be6-9abc-0c2880d8b6c0"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="49ac40e75c1342649d6196e1e4790867"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="81"/>
+            <column name="BOOK_PUBLICATION_ID" value="a1843bd591a34be69abc0c2880d8b6c0"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="906bb9c7-a087-41f7-a17b-fefbcb332a5a"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="82"/>
+            <column name="BOOK_PUBLICATION_ID" value="4f88c506-48a2-4066-ba3f-5949c3d0f305"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="3a86cbc2-9cad-43b1-8493-10f4def86746"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="906bb9c7a08741f7a17bfefbcb332a5a"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="82"/>
+            <column name="BOOK_PUBLICATION_ID" value="4f88c50648a24066ba3f5949c3d0f305"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="3a86cbc29cad43b1849310f4def86746"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="0b49ea8c-7b48-4ae0-804a-313ce454a12a"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="83"/>
+            <column name="BOOK_PUBLICATION_ID" value="4f88c506-48a2-4066-ba3f-5949c3d0f305"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="3a86cbc2-9cad-43b1-8493-10f4def86746"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="0b49ea8c7b484ae0804a313ce454a12a"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="83"/>
+            <column name="BOOK_PUBLICATION_ID" value="4f88c50648a24066ba3f5949c3d0f305"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="3a86cbc29cad43b1849310f4def86746"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="01fcb913-5c6b-4893-978b-483203708ba2"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="84"/>
+            <column name="BOOK_PUBLICATION_ID" value="4f88c506-48a2-4066-ba3f-5949c3d0f305"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="3a86cbc2-9cad-43b1-8493-10f4def86746"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="01fcb9135c6b4893978b483203708ba2"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="84"/>
+            <column name="BOOK_PUBLICATION_ID" value="4f88c50648a24066ba3f5949c3d0f305"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="3a86cbc29cad43b1849310f4def86746"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="1a8b552f-d2a3-485a-85da-ef9364648e8f"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="85"/>
+            <column name="BOOK_PUBLICATION_ID" value="74eb27b0-8923-4ff3-bf9f-8a0d5544814d"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="d3d79593-a2da-4bb9-b642-2388b171a903"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="1a8b552fd2a3485a85daef9364648e8f"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="85"/>
+            <column name="BOOK_PUBLICATION_ID" value="74eb27b089234ff3bf9f8a0d5544814d"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="d3d79593a2da4bb9b6422388b171a903"/>
+        </insert>
+
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="9b368be2-6e7b-4021-b51d-845125bec29e"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="90"/>
+            <column name="BOOK_PUBLICATION_ID" value="c6ca84f9-74ba-42c7-86c1-65a1f9f1e7ec"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="9b368be26e7b4021b51d845125bec29e"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="90"/>
+            <column name="BOOK_PUBLICATION_ID" value="c6ca84f974ba42c786c165a1f9f1e7ec"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="2fd07601-5704-4356-84a1-0325c054387e"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="91"/>
+            <column name="BOOK_PUBLICATION_ID" value="c6ca84f9-74ba-42c7-86c1-65a1f9f1e7ec"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="2fd076015704435684a10325c054387e"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="91"/>
+            <column name="BOOK_PUBLICATION_ID" value="c6ca84f974ba42c786c165a1f9f1e7ec"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="6c7746e1-2fec-482a-814a-31e6b95cfb85"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="92"/>
+            <column name="BOOK_PUBLICATION_ID" value="c6ca84f9-74ba-42c7-86c1-65a1f9f1e7ec"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16a-d24b-4649-a8d9-bdf196cb2f26"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="6c7746e12fec482a814a31e6b95cfb85"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="false"/>
+            <column name="INVENTORY_NUMBER" value="92"/>
+            <column name="BOOK_PUBLICATION_ID" value="c6ca84f974ba42c786c165a1f9f1e7ec"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="2f68f16ad24b4649a8d9bdf196cb2f26"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="b0d6ce17-6d7f-40e8-b51d-0ddf89b443f4"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="93"/>
+            <column name="BOOK_PUBLICATION_ID" value="0d689fd3-b34f-4ee4-ad06-a1b5a4c4cc3a"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="d5c15cc0-c42b-4954-8071-1f754b77fd70"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_INSTANCE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="b0d6ce176d7f40e8b51d0ddf89b443f4"/>
+            <column name="VERSION" value="1"/>
+            <column name="IS_REFERENCE" value="true"/>
+            <column name="INVENTORY_NUMBER" value="93"/>
+            <column name="BOOK_PUBLICATION_ID" value="0d689fd3b34f4ee4ad06a1b5a4c4cc3a"/>
+            <column name="LIBRARY_DEPARTMENT_ID" value="d5c15cc0c42b495480711f754b77fd70"/>
+        </insert>
+
+    </changeSet>
+</databaseChangeLog>

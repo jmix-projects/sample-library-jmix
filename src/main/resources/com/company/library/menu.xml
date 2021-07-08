@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://jmix.io/schema/ui/menu">
+
+    <menu id="library" caption="msg://com.company.library/menu_config.library" insertBefore="administration">
+        <item screen="libr_Book.browse" caption="msg://com.company.library/menu_config.libr_Book.browse"/>
+        <item screen="libr_AccessionRegister.window"
+              caption="msg://com.company.library.screen.librarydepartment/accessionRegisterWindow.caption"/>
+        <item screen="libr_BookPublication.browse"
+              caption="msg://com.company.library.screen.bookpublication/bookPublicationBrowse.caption"/>
+    </menu>
+    <menu id="referenceData" caption="msg://com.company.library/menu_config.referenceData"
+          insertBefore="administration">
+        <item screen="libr_Author.browse" caption="msg://com.company.library.screen.author/authorBrowse.caption"/>
+        <item screen="libr_LiteratureType.browse"
+              caption="msg://com.company.library.screen.literaturetype/literatureTypeBrowse.caption"/>
+        <item screen="libr_LibraryDepartment.browse"
+              caption="msg://com.company.library.screen.librarydepartment/libraryDepartmentBrowse.caption"/>
+        <item screen="libr_Publisher.browse"
+              caption="msg://com.company.library.screen.publisher/publisherBrowse.caption"/>
+        <item screen="libr_Town.browse" caption="msg://com.company.library.screen.town/townBrowse.caption"/>
+    </menu>
+    <menu id="application" caption="msg://com.company.library/menu.application" insertBefore="administration">
+        <item screen="libr_User.browse" caption="msg://com.company.library.screen.user/UserBrowse.caption"/>
+    </menu>
+
+
+</menu-config>

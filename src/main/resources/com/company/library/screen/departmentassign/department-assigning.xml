@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://jmix.io/schema/ui/window"
+        xmlns:c="http://jmix.io/schema/ui/jpql-condition"
+        caption="msg://com.company.library/accessionRegisterWindow.caption">
+    <data readOnly="true">
+        <collection id="libraryDepartmentsDc"
+                    class="com.company.library.entity.LibraryDepartment">
+            <fetchPlan extends="_local"/>
+            <loader id="libraryDepartmentsDl">
+                <query>
+                    <![CDATA[select e from libr_LibraryDepartment e order by e.name]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+        <screenSettings id="settingsFacet" auto="true"/>
+    </facets>
+    <actions>
+        <action id="assignAction"/>
+        <action id="clearAction"/>
+    </actions>
+    <dialogMode width="400"/>
+    <layout spacing="true">
+        <entityComboBox id="comboBox" caption="msg://com.company.library.screen.librarydepartment/selectLibraryDepartment" optionsContainer="libraryDepartmentsDc">
+            <actions>
+                <action id="entity_clear" type="entity_clear"/>
+                <action id="entity_lookup" type="entity_lookup"/>
+                <action id="entity_open" type="entity_open"/>
+            </actions>
+        </entityComboBox>
+        <hbox id="lookupActions" spacing="true">
+            <button id="assignButton" caption="Assign" action="assignAction"/>
+            <button id="clearButton" action="clearAction" caption="Clear"/>
+        </hbox>
+    </layout>
+</window>

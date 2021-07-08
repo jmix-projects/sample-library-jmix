@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="sample-library-jmix">
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="7d8a23ad-85ee-4987-b771-8d4d14e3ad35"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1987"/>
+            <column name="BOOK_ID" value="c073c4a2-c6e3-4428-aa19-f63ab0317b6d"/>
+            <column name="PUBLISHER_ID" value="af16c348-82ab-447a-b130-7f18b42ccc83"/>
+            <column name="TOWN_ID" value="8542c640-8fdf-4746-af10-8b81813fc10d"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="7d8a23ad85ee4987b7718d4d14e3ad35"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1987"/>
+            <column name="BOOK_ID" value="c073c4a2c6e34428aa19f63ab0317b6d"/>
+            <column name="PUBLISHER_ID" value="af16c34882ab447ab1307f18b42ccc83"/>
+            <column name="TOWN_ID" value="8542c6408fdf4746af108b81813fc10d"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="78419d89-9e4b-49a3-94aa-48fe585fb406"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1961"/>
+            <column name="BOOK_ID" value="ffaacded-959d-40d8-a814-87e7dc797f73"/>
+            <column name="PUBLISHER_ID" value="0738b821-832b-45c8-bb62-01cb1df56c0d"/>
+            <column name="TOWN_ID" value="a48dd33e-1b55-4f82-a3a8-ffe7dcb5bc73"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="78419d899e4b49a394aa48fe585fb406"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1961"/>
+            <column name="BOOK_ID" value="ffaacded959d40d8a81487e7dc797f73"/>
+            <column name="PUBLISHER_ID" value="0738b821832b45c8bb6201cb1df56c0d"/>
+            <column name="TOWN_ID" value="a48dd33e1b554f82a3a8ffe7dcb5bc73"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="0dd24375-7be4-4021-bc78-575194712dd8"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1973"/>
+            <column name="BOOK_ID" value="9b0e368a-b76a-40e6-b52f-3d3586b1443f"/>
+            <column name="PUBLISHER_ID" value="691685f3-4d58-47ad-b2e9-b90e97a6015f"/>
+            <column name="TOWN_ID" value="fd315c38-7770-4c06-b7d6-86e7d7bb2588"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="0dd243757be44021bc78575194712dd8"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1973"/>
+            <column name="BOOK_ID" value="9b0e368ab76a40e6b52f3d3586b1443f"/>
+            <column name="PUBLISHER_ID" value="691685f34d5847adb2e9b90e97a6015f"/>
+            <column name="TOWN_ID" value="fd315c3877704c06b7d686e7d7bb2588"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="532682f8-dcf1-4f3a-88dc-743edfbe86f4"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1990"/>
+            <column name="BOOK_ID" value="06b4ae95-2bc2-4d4e-ae37-14adcdca4954"/>
+            <column name="PUBLISHER_ID" value="954e9afa-4304-4637-82e4-3d2048340f6a"/>
+            <column name="TOWN_ID" value="fd315c38-7770-4c06-b7d6-86e7d7bb2588"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="532682f8dcf14f3a88dc743edfbe86f4"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1990"/>
+            <column name="BOOK_ID" value="06b4ae952bc24d4eae3714adcdca4954"/>
+            <column name="PUBLISHER_ID" value="954e9afa4304463782e43d2048340f6a"/>
+            <column name="TOWN_ID" value="fd315c3877704c06b7d686e7d7bb2588"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="a1843bd5-91a3-4be6-9abc-0c2880d8b6c0"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1971"/>
+            <column name="BOOK_ID" value="aad9576f-d9ee-4afd-bc3b-ee9486bc6d83"/>
+            <column name="PUBLISHER_ID" value="9840490c-caf9-4945-be42-8414070911b0"/>
+            <column name="TOWN_ID" value="691cf937-20dd-4401-b159-9ba353beed23"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="a1843bd591a34be69abc0c2880d8b6c0"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1971"/>
+            <column name="BOOK_ID" value="aad9576fd9ee4afdbc3bee9486bc6d83"/>
+            <column name="PUBLISHER_ID" value="9840490ccaf94945be428414070911b0"/>
+            <column name="TOWN_ID" value="691cf93720dd4401b1599ba353beed23"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="4f88c506-48a2-4066-ba3f-5949c3d0f305"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1996"/>
+            <column name="BOOK_ID" value="317af461-cfc0-49f5-9ffa-767715c7e3f8"/>
+            <column name="PUBLISHER_ID" value="fd333fd5-ad64-4a63-b2e9-1c08f160ce0c"/>
+            <column name="TOWN_ID" value="3ddcdf4f-a387-4b3a-bf2a-9fc91bdb954f"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="4f88c50648a24066ba3f5949c3d0f305"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1996"/>
+            <column name="BOOK_ID" value="317af461cfc049f59ffa767715c7e3f8"/>
+            <column name="PUBLISHER_ID" value="fd333fd5ad644a63b2e91c08f160ce0c"/>
+            <column name="TOWN_ID" value="3ddcdf4fa3874b3abf2a9fc91bdb954f"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="74eb27b0-8923-4ff3-bf9f-8a0d5544814d"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1968"/>
+            <column name="BOOK_ID" value="4a71f953-8c9b-4d18-94f7-8b6ddb32289c"/>
+            <column name="PUBLISHER_ID" value="4e7d281d-7c38-4b62-9832-b407cdd9a71f"/>
+            <column name="TOWN_ID" value="691cf937-20dd-4401-b159-9ba353beed23"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="74eb27b089234ff3bf9f8a0d5544814d"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1968"/>
+            <column name="BOOK_ID" value="4a71f9538c9b4d1894f78b6ddb32289c"/>
+            <column name="PUBLISHER_ID" value="4e7d281d7c384b629832b407cdd9a71f"/>
+            <column name="TOWN_ID" value="691cf93720dd4401b1599ba353beed23"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="c6ca84f9-74ba-42c7-86c1-65a1f9f1e7ec"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1969"/>
+            <column name="BOOK_ID" value="c2d7a99b-c698-4f17-adc8-1514c6e724e6"/>
+            <column name="PUBLISHER_ID" value="b36a7fa6-4edd-4bab-a34e-9879521af327"/>
+            <column name="TOWN_ID" value="4e266148-63c9-469d-b23a-bcc62a3fe9de"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="c6ca84f974ba42c786c165a1f9f1e7ec"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1969"/>
+            <column name="BOOK_ID" value="c2d7a99bc6984f17adc81514c6e724e6"/>
+            <column name="PUBLISHER_ID" value="b36a7fa64edd4baba34e9879521af327"/>
+            <column name="TOWN_ID" value="4e26614863c9469db23abcc62a3fe9de"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="0d689fd3-b34f-4ee4-ad06-a1b5a4c4cc3a"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1993"/>
+            <column name="BOOK_ID" value="1904bc24-b554-4b2f-bdd4-eb130057e624"/>
+            <column name="PUBLISHER_ID" value="9840490c-caf9-4945-be42-8414070911b0"/>
+            <column name="TOWN_ID" value="3ddcdf4f-a387-4b3a-bf2a-9fc91bdb954f"/>
+        </insert>
+        <insert tableName="LIBR_BOOK_PUBLICATION" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="0d689fd3b34f4ee4ad06a1b5a4c4cc3a"/>
+            <column name="VERSION" value="1"/>
+            <column name="YEAR_" value="1993"/>
+            <column name="BOOK_ID" value="1904bc24b5544b2fbdd4eb130057e624"/>
+            <column name="PUBLISHER_ID" value="9840490ccaf94945be428414070911b0"/>
+            <column name="TOWN_ID" value="3ddcdf4fa3874b3abf2a9fc91bdb954f"/>
+        </insert>
+
+    </changeSet>
+</databaseChangeLog>

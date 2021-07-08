@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="sample-library-jmix">
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="975449df-5f8b-4702-932e-55ae54ad9c17"/>
+            <column name="NAME" value="Reed Elsevier"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="975449df5f8b4702932e55ae54ad9c17"/>
+            <column name="NAME" value="Reed Elsevier"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="d3ea2a72-e7a3-4bea-b8d7-8e17095612aa"/>
+            <column name="NAME" value="Pearson"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="d3ea2a72e7a34beab8d78e17095612aa"/>
+            <column name="NAME" value="Pearson"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="b4e23082-6da4-4b97-86ee-4e4cc1b52d1f"/>
+            <column name="NAME" value="ThomsonReuters"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="b4e230826da44b9786ee4e4cc1b52d1f"/>
+            <column name="NAME" value="ThomsonReuters"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="c2076537-a2fa-4381-894d-cedf5b9a4ce0"/>
+            <column name="NAME" value="Wolters Kluwer"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="c2076537a2fa4381894dcedf5b9a4ce0"/>
+            <column name="NAME" value="Wolters Kluwer"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="4d9a03c1-8d86-46ae-9aa9-e74f7120d477"/>
+            <column name="NAME" value="Hachette Book Group"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="4d9a03c18d8646ae9aa9e74f7120d477"/>
+            <column name="NAME" value="Hachette Book Group"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="0738b821-832b-45c8-bb62-01cb1df56c0d"/>
+            <column name="NAME" value="HarperCollins"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="0738b821832b45c8bb6201cb1df56c0d"/>
+            <column name="NAME" value="HarperCollins"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="f3ff0275-876a-4bdd-986f-1f4b53b3f9a1"/>
+            <column name="NAME" value="Penguin Group"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="f3ff0275876a4bdd986f1f4b53b3f9a1"/>
+            <column name="NAME" value="Penguin Group"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="3c4681d0-025c-4c8d-b40a-0205fa3a7347"/>
+            <column name="NAME" value="Random House"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="3c4681d0025c4c8db40a0205fa3a7347"/>
+            <column name="NAME" value="Random House"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="4e7d281d-7c38-4b62-9832-b407cdd9a71f"/>
+            <column name="NAME" value="Simon &amp; Schuster"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="4e7d281d7c384b629832b407cdd9a71f"/>
+            <column name="NAME" value="Simon &amp; Schuster"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="6f784d7f-379b-46d4-a09a-4a563869a1bc"/>
+            <column name="NAME" value="Little Brown &amp; Co."/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="6f784d7f-379b-46d4-a09a-4a563869a1bc"/>
+            <column name="NAME" value="Little Brown &amp; Co."/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="a552d1b7-6ba2-44ef-bb7c-2e76d230f713"/>
+            <column name="NAME" value="Thompson"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="a552d1b76ba244efbb7c2e76d230f713"/>
+            <column name="NAME" value="Thompson"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="f0b7dfe2-f7f3-426a-96c4-1f188e668fbb"/>
+
+            <column name="NAME" value="John Wiley &amp; Sons"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="f0b7dfe2f7f3426a96c41f188e668fbb"/>
+
+            <column name="NAME" value="John Wiley &amp; Sons"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="af16c348-82ab-447a-b130-7f18b42ccc83"/>
+
+            <column name="NAME" value="Avon Books"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="af16c34882ab447ab1307f18b42ccc83"/>
+
+            <column name="NAME" value="Avon Books"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="691685f3-4d58-47ad-b2e9-b90e97a6015f"/>
+
+            <column name="NAME" value="Houghton Mifflin"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="691685f34d5847adb2e9b90e97a6015f"/>
+
+            <column name="NAME" value="Houghton Mifflin"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="09a531ce-0409-4bc8-9e04-b4ea04705263"/>
+
+            <column name="NAME" value="Nolo Press"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="09a531ce04094bc89e04b4ea04705263"/>
+
+            <column name="NAME" value="Nolo Press"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="c60e75bf-f778-4003-984c-ae39a5852c96"/>
+
+            <column name="NAME" value="Waterstones"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="c60e75bff7784003984cae39a5852c96"/>
+
+            <column name="NAME" value="Waterstones"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="9840490c-caf9-4945-be42-8414070911b0"/>
+
+            <column name="NAME" value="Bloomsbury Publishing"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="9840490ccaf94945be428414070911b0"/>
+
+            <column name="NAME" value="Bloomsbury Publishing"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="fd333fd5-ad64-4a63-b2e9-1c08f160ce0c"/>
+
+            <column name="NAME" value="Macmillan Publishers"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="fd333fd5ad644a63b2e91c08f160ce0c"/>
+
+            <column name="NAME" value="Macmillan Publishers"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="b36a7fa6-4edd-4bab-a34e-9879521af327"/>
+
+            <column name="NAME" value="Faber and Faber"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="b36a7fa64edd4baba34e9879521af327"/>
+
+            <column name="NAME" value="Faber and Faber"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="52706767-8c93-43e3-920f-dfa6b841dfe0"/>
+
+            <column name="NAME" value="Atlantic Books"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="527067678c9343e3920fdfa6b841dfe0"/>
+
+            <column name="NAME" value="Atlantic Books"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="cf1d978d-ab68-448e-8543-e2e28d8e157b"/>
+
+            <column name="NAME" value="Canongate Books"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="cf1d978dab68448e8543e2e28d8e157b"/>
+
+            <column name="NAME" value="Canongate Books"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="4c592e2e-59bf-4a87-b705-fe5b9ed323ce"/>
+
+            <column name="NAME" value="Edinburgh"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="4c592e2e59bf4a87b705fe5b9ed323ce"/>
+
+            <column name="NAME" value="Edinburgh"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="7a8ae349-0998-44dc-8ad3-6d9f537a3c3e"/>
+
+            <column name="NAME" value="Profile Books"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="7a8ae349099844dc8ad36d9f537a3c3e"/>
+
+            <column name="NAME" value="Profile Books"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="5f52b9ff-6333-461c-b18a-3852f264ed50"/>
+
+            <column name="NAME" value="Granta Books"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="5f52b9ff6333461cb18a3852f264ed50"/>
+
+            <column name="NAME" value="Granta Books"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="4960832e-0adc-44f4-a68e-f2046376baa1"/>
+
+            <column name="NAME" value="Quercus Publishing"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="4960832e0adc44f4a68ef2046376baa1"/>
+
+            <column name="NAME" value="Quercus Publishing"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="f8d5faeb-181e-4254-a730-00c8d1108415"/>
+
+            <column name="NAME" value="Egmont Publishing"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="f8d5faeb181e4254a73000c8d1108415"/>
+
+            <column name="NAME" value="Egmont Publishing"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+        <insert tableName="LIBR_PUBLISHER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="954e9afa-4304-4637-82e4-3d2048340f6a"/>
+
+            <column name="NAME" value="Elsevier"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+        <insert tableName="LIBR_PUBLISHER" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="954e9afa4304463782e43d2048340f6a"/>
+
+            <column name="NAME" value="Elsevier"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+
+
+    </changeSet>
+</databaseChangeLog>

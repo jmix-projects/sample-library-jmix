@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="sample-library-jmix">
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="9fef085c-dc40-48e4-bbc6-e5c47aca6036"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Belair-Edison"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="9fef085cdc4048e4bbc6e5c47aca6036"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Belair-Edison"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="3ddcdf4f-a387-4b3a-bf2a-9fc91bdb954f"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="New York"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="3ddcdf4fa3874b3abf2a9fc91bdb954f"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="New York"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="fd315c38-7770-4c06-b7d6-86e7d7bb2588"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="London"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="fd315c3877704c06b7d686e7d7bb2588"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="London"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="f99e83f5-fd9d-456a-8cfd-a5148d92d917"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Canton"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="f99e83f5fd9d456a8cfda5148d92d917"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Canton"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="1a9192e3-d8fc-4e11-9cbb-f17b9876155e"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Cherry Hill"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="1a9192e3d8fc4e119cbbf17b9876155e"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Cherry Hill"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="e454f7dd-4d91-4d82-be1c-972f268b40fc"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Clifton"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="e454f7dd4d914d82be1c972f268b40fc"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Clifton"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="a8323e47-14db-4e65-bb21-607f82799ec1"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Hamilton"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="a8323e4714db4e65bb21607f82799ec1"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Hamilton"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="d44c8867-0194-47c7-9722-7b9f84d5a010"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Govans"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="d44c8867019447c797227b9f84d5a010"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Govans"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="344249e2-a31e-4b34-97f7-9a8834187c7c"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Hampden"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="344249e2a31e4b3497f79a8834187c7c"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Hampden"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="921ec18c-ef95-42de-9263-9b33d4af32e9"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Forest Park"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="921ec18cef9542de92639b33d4af32e9"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Forest Park"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="fa1e39ba-1e7d-4c79-9cde-276c6c40d36a"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Northwood"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="fa1e39ba1e7d4c799cde276c6c40d36a"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Northwood"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="b6419c3c-dfae-4c88-94e2-02f80022d0bb"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Highlandtown"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="b6419c3cdfae4c8894e202f80022d0bb"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Highlandtown"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="f696aa4a-91cf-461f-9ace-01266c8901ca"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Roland Park"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="f696aa4a91cf461f9ace01266c8901ca"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Roland Park"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="59e0ee3d-b754-47f0-94db-bb5f7d6bc0d3"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Washington Village"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="59e0ee3db75447f094dbbb5f7d6bc0d3"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Washington Village"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="6d50c910-0c7a-4980-8433-4dcaccb83e91"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Waverly"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="6d50c9100c7a498084334dcaccb83e91"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Waverly"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="4e266148-63c9-469d-b23a-bcc62a3fe9de"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Paris"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="4e26614863c9469db23abcc62a3fe9de"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Paris"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="a48dd33e-1b55-4f82-a3a8-ffe7dcb5bc73"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Stamford"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="a48dd33e1b554f82a3a8ffe7dcb5bc73"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Stamford"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="8542c640-8fdf-4746-af10-8b81813fc10d"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Boston"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="8542c6408fdf4746af108b81813fc10d"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Boston"/>
+        </insert>
+
+        <insert tableName="LIBR_TOWN" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="691cf937-20dd-4401-b159-9ba353beed23"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Cambridge"/>
+        </insert>
+        <insert tableName="LIBR_TOWN" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="691cf93720dd4401b1599ba353beed23"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Cambridge"/>
+        </insert>
+
+
+
+    </changeSet>
+</databaseChangeLog>

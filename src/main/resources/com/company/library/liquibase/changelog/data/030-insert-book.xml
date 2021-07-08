@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="sample-library-jmix">
+        <insert tableName="LIBR_BOOK" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="c073c4a2-c6e3-4428-aa19-f63ab0317b6d"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Pride and Prejudice"/>
+            <column name="LITERATURE_TYPE_ID" value="c1e9a7d1-ac11-41f9-8eaf-0b769ec66e56"/>
+        </insert>
+        <insert tableName="LIBR_BOOK" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="c073c4a2c6e34428aa19f63ab0317b6d"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Pride and Prejudice"/>
+            <column name="LITERATURE_TYPE_ID" value="c1e9a7d1ac1141f98eaf0b769ec66e56"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="ffaacded-959d-40d8-a814-87e7dc797f73"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Jane Eyre"/>
+            <column name="LITERATURE_TYPE_ID" value="c1e9a7d1-ac11-41f9-8eaf-0b769ec66e56"/>
+        </insert>
+        <insert tableName="LIBR_BOOK" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="ffaacded959d40d8a81487e7dc797f73"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Jane Eyre"/>
+            <column name="LITERATURE_TYPE_ID" value="c1e9a7d1ac1141f98eaf0b769ec66e56"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="9b0e368a-b76a-40e6-b52f-3d3586b1443f"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="The Lord of the Rings (#1-3)"/>
+            <column name="LITERATURE_TYPE_ID" value="ab76a110-a171-45d0-bce5-91db19af6a19"/>
+        </insert>
+        <insert tableName="LIBR_BOOK" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="9b0e368ab76a40e6b52f3d3586b1443f"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="The Lord of the Rings (#1-3)"/>
+            <column name="LITERATURE_TYPE_ID" value="ab76a110a17145d0bce591db19af6a19"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="06b4ae95-2bc2-4d4e-ae37-14adcdca4954"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Wuthering Heights"/>
+            <column name="LITERATURE_TYPE_ID" value="c1e9a7d1-ac11-41f9-8eaf-0b769ec66e56"/>
+        </insert>
+        <insert tableName="LIBR_BOOK" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="06b4ae952bc24d4eae3714adcdca4954"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Wuthering Heights"/>
+            <column name="LITERATURE_TYPE_ID" value="c1e9a7d1ac1141f98eaf0b769ec66e56"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="1904bc24-b554-4b2f-bdd4-eb130057e624"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="The Complete Works"/>
+            <column name="LITERATURE_TYPE_ID" value="5b01d1ef-dfea-4828-bbc4-775bc02a6a49"/>
+        </insert>
+        <insert tableName="LIBR_BOOK" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="1904bc24b5544b2fbdd4eb130057e624"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="The Complete Works"/>
+            <column name="LITERATURE_TYPE_ID" value="5b01d1efdfea4828bbc4775bc02a6a49"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="aad9576f-d9ee-4afd-bc3b-ee9486bc6d83"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="The Picture of Dorian Gray"/>
+            <column name="LITERATURE_TYPE_ID" value="398e03d8-9c59-4423-a14f-1971deb96ab2"/>
+        </insert>
+        <insert tableName="LIBR_BOOK" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="aad9576fd9ee4afdbc3bee9486bc6d83"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="The Picture of Dorian Gray"/>
+            <column name="LITERATURE_TYPE_ID" value="398e03d89c594423a14f1971deb96ab2"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="4a71f953-8c9b-4d18-94f7-8b6ddb32289c"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="The Chronicles of Narnia (#1-7)"/>
+            <column name="LITERATURE_TYPE_ID" value="ab76a110-a171-45d0-bce5-91db19af6a19"/>
+        </insert>
+        <insert tableName="LIBR_BOOK" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="4a71f9538c9b4d1894f78b6ddb32289c"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="The Chronicles of Narnia (#1-7)"/>
+            <column name="LITERATURE_TYPE_ID" value="ab76a110a17145d0bce591db19af6a19"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="317af461-cfc0-49f5-9ffa-767715c7e3f8"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Harry Potter Boxset (#1-7)"/>
+            <column name="LITERATURE_TYPE_ID" value="831969ba-ff9f-41d9-9576-9b74a5460805"/>
+        </insert>
+        <insert tableName="LIBR_BOOK" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="317af461cfc049f59ffa767715c7e3f8"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Harry Potter Boxset (#1-7)"/>
+            <column name="LITERATURE_TYPE_ID" value="831969baff9f41d995769b74a5460805"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="ff3b0136-768c-4db8-8368-aaa85ff65da7"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Emma"/>
+            <column name="LITERATURE_TYPE_ID" value="c1e9a7d1-ac11-41f9-8eaf-0b769ec66e56"/>
+        </insert>
+        <insert tableName="LIBR_BOOK" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="ff3b0136768c4db88368aaa85ff65da7"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Emma"/>
+            <column name="LITERATURE_TYPE_ID" value="c1e9a7d1ac1141f98eaf0b769ec66e56"/>
+        </insert>
+
+        <insert tableName="LIBR_BOOK" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="c2d7a99b-c698-4f17-adc8-1514c6e724e6"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Animal Farm"/>
+            <column name="LITERATURE_TYPE_ID" value="7cb2a739-d296-426e-9b7c-9e7b9161b01b"/>
+        </insert>
+        <insert tableName="LIBR_BOOK" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="c2d7a99bc6984f17adc81514c6e724e6"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Animal Farm"/>
+            <column name="LITERATURE_TYPE_ID" value="7cb2a739d296426e9b7c9e7b9161b01b"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>
+

@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="sample-library-jmix">
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="fdd43156-e710-4b0c-b166-767575d7151b"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Drama"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="fdd43156e7104b0cb166767575d7151b"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Drama"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="f4def123-d803-44d7-a02b-827391921d63"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Fable"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="f4def123d80344d7a02b827391921d63"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Fable"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="ab76a110-a171-45d0-bce5-91db19af6a19"/>
+            <column name="VERSION" value="1"/>
+
+            <column name="NAME" value="Fantasy"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="ab76a110a17145d0bce591db19af6a19"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Fantasy"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="57fffce9-2063-4513-8024-d36b0197313f"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Folklore"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="57fffce9206345138024d36b0197313f"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Folklore"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="217475cc-cf61-49a6-9786-266b3067911f"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Horror"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="217475cccf6149a69786266b3067911f"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Horror"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="24034881-b384-438f-9062-d8eae16e8ed2"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Humor"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="24034881b384438f9062d8eae16e8ed2"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Humor"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="f3ee134b-1f1a-41ed-a9b8-e11b274e1fee"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Legend"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="f3ee134b1f1a41eda9b8e11b274e1fee"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Legend"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="398e03d8-9c59-4423-a14f-1971deb96ab2"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Mystery"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="398e03d89c594423a14f1971deb96ab2"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Mystery"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="5b01d1ef-dfea-4828-bbc4-775bc02a6a49"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Poetry"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="5b01d1efdfea4828bbc4775bc02a6a49"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Poetry"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="2e8d856d-6e04-41b1-9075-fe06fc896c4b"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Short story"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="2e8d856d6e0441b19075fe06fc896c4b"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Short story"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="9bae9dcd-8081-4f90-9f4a-9e7a459b2b4e"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Fairy tale"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="9bae9dcd80814f909f4a9e7a459b2b4e"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Fairy tale"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="58d12e16-71a5-4b0a-bfaa-86c1874b8753"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Science fiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="58d12e1671a54b0abfaa86c1874b8753"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Science fiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="c1e9a7d1-ac11-41f9-8eaf-0b769ec66e56"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Realistic fiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="c1e9a7d1ac1141f98eaf0b769ec66e56"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Realistic fiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="5962c0fe-e1c6-4ce1-b6e4-17b9ae3275d9"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Historical fiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="5962c0fee1c64ce1b6e417b9ae3275d9"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Historical fiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="20e27fa2-4074-44cf-93ae-e150832817f4"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Autobiography"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="20e27fa2407444cf93aee150832817f4"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Autobiography"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="1a5a235c-ad0b-4050-9c6e-a8a98db7c505"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Biography"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="1a5a235cad0b40509c6ea8a98db7c505"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Biography"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="5a764a36-1ce1-4ee5-ae85-b6b2beacf889"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Essay"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="5a764a361ce14ee5ae85b6b2beacf889"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Essay"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="99102541-c415-44cc-871c-d9ab4ac10bb0"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Narrative nonfiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="99102541c41544cc871cd9ab4ac10bb0"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Narrative nonfiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="9921293a-f589-45ff-a518-b9ffbe1c8aee"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Speech"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="9921293af58945ffa518b9ffbe1c8aee"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Speech"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="2ca68c40-ecb2-4d95-a4fd-c157316d79de"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Textbook"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="2ca68c40ecb24d95a4fdc157316d79de"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Textbook"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="05138813-667a-4c69-b1e0-3cea33c3bdbb"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Adventure novel"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="05138813667a4c69b1e03cea33c3bdbb"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Adventure novel"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="831969ba-ff9f-41d9-9576-9b74a5460805"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Children's literature"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="831969baff9f41d995769b74a5460805"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Children's literature"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="284ffc91-29b2-4d39-af7f-7f2896662989"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Comic novel"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="284ffc9129b24d39af7f7f2896662989"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Comic novel"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="e006da16-4065-40d6-829b-6becaeef7a7a"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Erotic ficton"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="e006da16406540d6829b6becaeef7a7a"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Erotic ficton"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="f4703f52-26c8-4b33-81f4-1327cbe402ae"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Memoir"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="f4703f5226c84b3381f41327cbe402ae"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Memoir"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="1120d0e5-5096-4b00-92aa-0c862cb1090e"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Philosophical fiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="1120d0e550964b0092aa0c862cb1090e"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Philosophical fiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="7cb2a739-d296-426e-9b7c-9e7b9161b01b"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Political fiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="7cb2a739d296426e9b7c9e7b9161b01b"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Political fiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="67aad722-f36b-4c1d-a9e8-97210304f556"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Women's fiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="67aad722f36b4c1da9e897210304f556"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Women's fiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="ea60afe3-2ce1-4aef-a1d3-342a24b7d8a7"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Occupational fiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="ea60afe32ce14aefa1d3342a24b7d8a7"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Occupational fiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="9eb3e134-179d-4eb3-9abc-376262f60ba7"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Absurdist fiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="9eb3e134179d4eb39abc376262f60ba7"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Absurdist fiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="172cc438-3fa8-4b02-aa81-b104ff5a2710"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Detective fiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="172cc4383fa84b02aa81b104ff5a2710"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Detective fiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="3b116679-0977-42f5-ab08-105c374ac55c"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Dystopia"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="3b116679097742f5ab08105c374ac55c"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Dystopia"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="4ff7360b-c8d6-4da9-9445-38d9e12b910a"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Tall tale"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="4ff7360bc8d64da9944538d9e12b910a"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Tall tale"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="6ae3b06b-bcf2-4457-8721-8a40aa5001e5"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Education fiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="6ae3b06bbcf2445787218a40aa5001e5"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Education fiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="e7925b23-c7e4-4ef4-b206-254f2ed83d79"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Gothic fiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="e7925b23c7e44ef4b206254f2ed83d79"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Gothic fiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="4a51d0ac-5e87-4691-b24f-f82ffbfbd77c"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Sentimental prose"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="4a51d0ac5e874691b24ff82ffbfbd77c"/>
+            <column name="VERSION" value="1"/>
+           <column name="NAME" value="Sentimental prose"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="ad4b94d3-0eef-4632-be45-66a0bcbc7c31"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Mythology"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="ad4b94d30eef4632be4566a0bcbc7c31"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Mythology"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="5eb5f0a1-dfb5-4c15-b328-10d7e1508cb5"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Religious fiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="5eb5f0a1dfb54c15b32810d7e1508cb5"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Religious fiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="fa576f06-613a-4afc-beeb-b33f31756135"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Pulp fiction"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="fa576f06-613a-4afc-beeb-b33f31756135"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Pulp fiction"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="e8b4f42f-167f-4e94-b2a4-2502f77290cb"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Tragedy"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="e8b4f42f167f4e94b2a42502f77290cb"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Tragedy"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="6ec36293-ef98-4634-b40b-10355ddfe122"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Thriller"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="6ec36293ef984634b40b10355ddfe122"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="Thriller"/>
+        </insert>
+
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="43ac5955-28c0-4f1a-aa5f-28503f967a57"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="War prose"/>
+        </insert>
+        <insert tableName="LIBR_LITERATURE_TYPE" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="43ac595528c04f1aaa5f28503f967a57"/>
+            <column name="VERSION" value="1"/>
+            <column name="NAME" value="War prose"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>

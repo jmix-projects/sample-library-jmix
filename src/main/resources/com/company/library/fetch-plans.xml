@@ -1,0 +1,38 @@
+<fetchPlans xmlns="http://jmix.io/schema/core/fetch-plans">
+    <fetchPlan entity="libr_Book" name="book-browse" extends="_local">
+        <property name="literatureType" fetchPlan="_instance_name"/>
+    </fetchPlan>
+    <fetchPlan entity="libr_Book" name="book-edit" extends="_local">
+        <property name="literatureType" fetchPlan="_instance_name"/>
+        <property name="authors" fetchPlan="_instance_name">
+            <property name="middleName"/>
+            <property name="firstName"/>
+        </property>
+    </fetchPlan>
+    <fetchPlan entity="libr_BookPublication" name="bookPublication-full" extends="_local">
+        <property name="town" fetchPlan="_instance_name"/>
+        <property name="publisher" fetchPlan="_instance_name"/>
+        <property name="book" fetchPlan="_instance_name"/>
+    </fetchPlan>
+    <fetchPlan entity="libr_BookInstance" name="bookInstance-browse" extends="_local">
+        <property name="libraryDepartment" fetchPlan="_instance_name"/>
+        <property name="bookPublication" fetchPlan="_instance_name">
+            <property name="book" fetchPlan="_instance_name"/>
+        </property>
+    </fetchPlan>
+    <fetchPlan entity="libr_BookInstance" name="bookInstance-edit" extends="_local">
+        <property name="libraryDepartment" fetchPlan="_instance_name"/>
+        <property name="bookPublication" fetchPlan="_instance_name">
+            <property name="book" fetchPlan="_instance_name"/>
+        </property>
+    </fetchPlan>
+    <fetchPlan entity="libr_BookInstance" name="bookInstance-accession" extends="_local">
+        <property name="libraryDepartment" fetchPlan="_instance_name"/>
+        <property name="bookPublication" fetchPlan="_instance_name">
+            <property name="book" fetchPlan="_instance_name"/>
+        </property>
+    </fetchPlan>
+    <fetchPlan entity="libr_BookInstance" name="bookInstance-assignLibraryDepartment" extends="_local">
+        <property name="libraryDepartment" fetchPlan="_instance_name"/>
+    </fetchPlan>
+</fetchPlans>

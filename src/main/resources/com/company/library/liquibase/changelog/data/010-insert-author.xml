@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="sample-library-jmix">
+        <insert tableName="LIBR_AUTHOR" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="f5ee2d84-6bf9-4966-9bfd-d38453aee420"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="Jane"/>
+            <column name="LAST_NAME" value="Austen"/>
+        </insert>
+        <insert tableName="LIBR_AUTHOR" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="f5ee2d846bf949669bfdd38453aee420"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="Jane"/>
+            <column name="LAST_NAME" value="Austen"/>
+        </insert>
+
+        <insert tableName="LIBR_AUTHOR" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="6a62273e-3c6f-47b3-a6c7-d70e7b255420"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="Charlotte"/>
+            <column name="LAST_NAME" value="Bronte"/>
+        </insert>
+        <insert tableName="LIBR_AUTHOR" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="6a62273e3c6f47b3a6c7d70e7b255420"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="Charlotte"/>
+            <column name="LAST_NAME" value="Bronte"/>
+        </insert>
+
+        <insert tableName="LIBR_AUTHOR" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="17803e72-2011-42e6-8aa9-cd0c82171b58"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="Emily"/>
+            <column name="LAST_NAME" value="Bronte"/>
+        </insert>
+        <insert tableName="LIBR_AUTHOR" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="17803e72201142e68aa9cd0c82171b58"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="Emily"/>
+            <column name="LAST_NAME" value="Bronte"/>
+        </insert>
+
+        <insert tableName="LIBR_AUTHOR" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="ec197dba-2867-403d-9f00-d7ea54c408f4"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="George"/>
+            <column name="LAST_NAME" value="Orwell"/>
+        </insert>
+        <insert tableName="LIBR_AUTHOR" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="ec197dba2867403d9f00d7ea54c408f4"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="George"/>
+            <column name="LAST_NAME" value="Orwell"/>
+        </insert>
+
+        <insert tableName="LIBR_AUTHOR" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="4b3a21b0-d6b7-4161-b0b6-55f118fbaac5"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="Oscar"/>
+            <column name="LAST_NAME" value="Wilde"/>
+        </insert>
+        <insert tableName="LIBR_AUTHOR" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="4b3a21b0d6b74161b0b655f118fbaac5"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="Oscar"/>
+            <column name="LAST_NAME" value="Wilde"/>
+        </insert>
+
+        <insert tableName="LIBR_AUTHOR" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="8ead6894-76ad-4aa8-910b-d63f6e59bf00"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="Joan K."/>
+            <column name="LAST_NAME" value="Rowling"/>
+        </insert>
+        <insert tableName="LIBR_AUTHOR" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="8ead689476ad4aa8910bd63f6e59bf00"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="Joan K."/>
+            <column name="LAST_NAME" value="Rowling"/>
+        </insert>
+
+        <insert tableName="LIBR_AUTHOR" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="b41c1385-a38e-4708-b776-a524b83a6555"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="J.R.R."/>
+            <column name="LAST_NAME" value="Tolkien"/>
+        </insert>
+        <insert tableName="LIBR_AUTHOR" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="b41c1385a38e4708b776a524b83a6555"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="J.R.R."/>
+            <column name="LAST_NAME" value="Tolkien"/>
+        </insert>
+
+        <insert tableName="LIBR_AUTHOR" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="e81418f2-7645-46b9-8e46-8195d2f865a1"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="C.S."/>
+            <column name="LAST_NAME" value="Lewis"/>
+        </insert>
+        <insert tableName="LIBR_AUTHOR" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="e81418f2764546b98e468195d2f865a1"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="C.S."/>
+            <column name="LAST_NAME" value="Lewis"/>
+        </insert>
+
+        <insert tableName="LIBR_AUTHOR" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="f20c7fa7-c871-4d45-95c5-0b83e5ab3031"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="William"/>
+            <column name="LAST_NAME" value="Shakespeare"/>
+        </insert>
+        <insert tableName="LIBR_AUTHOR" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="f20c7fa7c8714d4595c50b83e5ab3031"/>
+            <column name="VERSION" value="1"/>
+            <column name="FIRST_NAME" value="William"/>
+            <column name="LAST_NAME" value="Shakespeare"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>
+
