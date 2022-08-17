@@ -21,6 +21,7 @@
     </menu>
     <menu id="application" caption="msg://com.company.library/menu.application" insertBefore="administration">
         <item screen="libr_User.browse" caption="msg://com.company.library.screen.user/UserBrowse.caption"/>
+        <item screen="themeSettingsScreen" caption="msg://io.jmix.ui.app.themesettings/themeSettings.caption"/>
     </menu>
 
 

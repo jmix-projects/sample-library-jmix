@@ -9,9 +9,9 @@ The Library showcase contains:
 -	The data model, which includes 8 related entities
 -	Custom screens
 -	Simple business logic implemented on a middleware tier
--   Reporting module with sample [reports](https://docs.jmix.io/jmix/1.0/reports/sample-reports.html)
+-   Reporting module with sample [reports](https://docs.jmix.io/jmix/reports/sample-reports.html)
 
 Based on Jmix framework v.1.0.0
 
 ## Issues
-Please use https://www.cuba-platform.com/discuss/c/jmix/40 for discussion, support and reporting problems corresponding to this sample.
+Please use [forum](https://forum.jmix.io/c/support/5) for discussion, support and reporting problems corresponding to this sample.
