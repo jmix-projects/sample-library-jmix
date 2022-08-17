@@ -11,7 +11,7 @@ The Library showcase contains:
 -	Simple business logic implemented on a middleware tier
 -   Reporting module with sample [reports](https://docs.jmix.io/jmix/reports/sample-reports.html)
 
-Based on Jmix framework v.1.0.0
+Based on Jmix framework v.1.3.2
 
 ## Issues
 Please use [forum](https://forum.jmix.io/c/support/5) for discussion, support and reporting problems corresponding to this sample.
