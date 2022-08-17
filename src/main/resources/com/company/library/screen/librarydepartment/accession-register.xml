@@ -33,63 +33,64 @@
         <action id="createBookInstances" caption="msg://com.company.library.screen.librarydepartment/createBookInstances"/>
     </actions>
     <dialogMode width="400"/>
-    <layout spacing="true" expand="itemsGroupBox">
-        <groupBox spacing="true" caption="msg://com.company.library.screen.librarydepartment/selectBook">
-            <entityComboBox id="bookField" optionsContainer="booksDc">
-                <actions>
-                    <action id="entity_lookup" type="entity_lookup"/>
-                    <action id="entity_open" type="entity_open"/>
-                </actions>
-            </entityComboBox>
-        </groupBox>
-        <groupBox spacing="true" caption="msg://com.company.library.screen.librarydepartment/selectBookPublication">
-            <table id="bookPublicationsTable" height="100px" width="100%" dataContainer="bookPublicationsDc">
-                <columns>
-                    <column id="publisher"/>
-                    <column id="year"/>
-                    <column id="town"/>
-                </columns>
-                <actions>
-                    <action id="createBookPublication"
-                            caption="msg://com.company.library.screen.librarydepartment/createBookPublication"
-                            icon="icons/create.png"
-                            shortcut="Ctrl-Insert"/>
-                    <action id="edit"/>
-                    <action id="remove"/>
-                </actions>
-            </table>
-        </groupBox>
-        <groupBox spacing="true" caption="msg://createBookInstances">
-            <gridLayout spacing="true">
-                <columns>
-                    <column flex="0.0"/>
-                    <column flex="0.0"/>
-                    <column flex="0.0"/>
-                </columns>
-                <rows>
-                    <row>
-                        <label value="msg://com.company.library.screen.librarydepartment/bookInstancesAmount"/>
-                        <textField id="bookInstancesAmountField" datatype="int"/>
-                        <button id="createBookInstancesButtonBtn" action="createBookInstances"/>
-                    </row>
-                </rows>
-            </gridLayout>
-        </groupBox>
-        <groupBox id="itemsGroupBox" spacing="true" caption="msg://com.company.library.screen.librarydepartment/createdBookInstances" expand="bookInstancesTable">
-            <table id="bookInstancesTable" width="100%" multiselect="true"
-                   dataContainer="bookInstancesDc">
-
-                <buttonsPanel alwaysVisible="true">
-                    <button id="bookInstancesTableEditBtn" primary="false" caption="Set reference"/>
-                </buttonsPanel>
-                <columns>
-                    <column id="inventoryNumber"/>
-                    <column id="bookPublication"/>
-                    <column id="libraryDepartment"/>
-                    <column id="isReference"/>
-                </columns>
-            </table>
-            <button id="assignLibraryDepartmentBtn" caption="msg://com.company.library.screen.librarydepartment/assignLibraryDepartment"/>
-        </groupBox>
+    <layout>
+        <vbox spacing="true">
+            <groupBox spacing="true" caption="msg://com.company.library.screen.librarydepartment/selectBook">
+                <entityComboBox id="bookField" optionsContainer="booksDc">
+                    <actions>
+                        <action id="entity_lookup" type="entity_lookup"/>
+                        <action id="entity_open" type="entity_open"/>
+                    </actions>
+                </entityComboBox>
+            </groupBox>
+            <groupBox spacing="true" caption="msg://com.company.library.screen.librarydepartment/selectBookPublication">
+                <table id="bookPublicationsTable" height="100px" width="100%" dataContainer="bookPublicationsDc">
+                    <columns>
+                        <column id="publisher"/>
+                        <column id="year"/>
+                        <column id="town"/>
+                    </columns>
+                    <actions>
+                        <action id="createBookPublication"
+                                caption="msg://com.company.library.screen.librarydepartment/createBookPublication"
+                                icon="icons/create.png"
+                                shortcut="Ctrl-Insert"/>
+                        <action id="edit"/>
+                        <action id="remove"/>
+                    </actions>
+                </table>
+            </groupBox>
+            <groupBox spacing="true" caption="msg://createBookInstances">
+                <gridLayout spacing="true">
+                    <columns>
+                        <column flex="0.0"/>
+                        <column flex="0.0"/>
+                        <column flex="0.0"/>
+                    </columns>
+                    <rows>
+                        <row>
+                            <label value="msg://com.company.library.screen.librarydepartment/bookInstancesAmount"/>
+                            <textField id="bookInstancesAmountField" datatype="int"/>
+                            <button id="createBookInstancesButtonBtn" action="createBookInstances"/>
+                        </row>
+                    </rows>
+                </gridLayout>
+            </groupBox>
+            <groupBox id="itemsGroupBox" spacing="true" caption="msg://com.company.library.screen.librarydepartment/createdBookInstances">
+                <table id="bookInstancesTable" width="100%" multiselect="true"
+                       dataContainer="bookInstancesDc" height="400">
+                    <buttonsPanel alwaysVisible="true">
+                        <button id="bookInstancesTableEditBtn" primary="false" caption="Set reference"/>
+                    </buttonsPanel>
+                    <columns>
+                        <column id="inventoryNumber"/>
+                        <column id="bookPublication"/>
+                        <column id="libraryDepartment"/>
+                        <column id="isReference"/>
+                    </columns>
+                </table>
+                <button id="assignLibraryDepartmentBtn" caption="msg://com.company.library.screen.librarydepartment/assignLibraryDepartment"/>
+            </groupBox>
+        </vbox>
     </layout>
 </window>
